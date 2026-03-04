@@ -9,6 +9,12 @@ export default [
     name: 'strapi::session',
     config: { secure: false },
   },
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://your-site.netlify.app'],
+    },
+  },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
