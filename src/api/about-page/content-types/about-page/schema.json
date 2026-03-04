@@ -41,6 +41,18 @@
         "videos",
         "audios"
       ]
+    },
+    "connect": {
+      "type": "string"
+    },
+    "connectDescription": {
+      "type": "text"
+    },
+    "connectEmail": {
+      "type": "email"
+    },
+    "connectLocation": {
+      "type": "string"
     }
   }
 }
