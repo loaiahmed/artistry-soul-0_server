@@ -12,7 +12,7 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://your-site.netlify.app'],
+      origin: ['https://artistry-soul.netlify.app/'],
     },
   },
   'strapi::cors',
