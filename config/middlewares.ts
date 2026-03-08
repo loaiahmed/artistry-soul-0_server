@@ -12,7 +12,10 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://artistry-soul.netlify.app'],
+      origin: ['https://artistry-soul.netlify.app',
+        'http://localhost:5173',
+        'http://localhost:3000',
+      ],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       keepHeaderOnError: true,
